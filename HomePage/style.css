@@ -1,0 +1,59 @@
+
+.candiates {
+    display: flex;
+    border: none;
+}
+
+.Vote {
+    flex: 1;
+    text-align: center;
+}  
+
+.Vote:first-child {
+    margin-right: 20px;
+} 
+label{
+    font-size: 5rem;
+    color: whitesmoke;
+}
+
+#Nixton{
+    color: mediumblue;
+    border: mediumblue solid 1rem;
+    transition: all 3s;
+}
+
+#McGovern{
+    border: solid 1rem rosybrown;
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 4rem;
+    background-color: black;
+}
+html{
+    background-image: url(../Media/America-Flag-Map.svg);
+}
+
+#McGovernDiv{
+    background-color: hotpink;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border: none;
+}
+
+#NixtonDiv{
+    background-color: crimson;
+    transition: all 1s;
+}
+#star{
+    position: absolute;
+
+    width: 40px;
+    height: 40px;
+    transition: all .5s
+}
+img.memePic{
+    border: solid black 5px;
+}
